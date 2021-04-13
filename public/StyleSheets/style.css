@@ -1,0 +1,28 @@
+/* Universal Styles */
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main Page Styles */
+/* #root {
+  display: grid;
+  grid-template-rows: 1fr 1fr 10fr;
+  grid-template-columns: 100vw;
+} */
+
+.nav-bar {
+  background-color: palevioletred;
+  padding: 1rem;
+  /* grid-row: 1; */
+  z-index: 100;
+}
+
+/* AR Scene */
+#scene {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  /* grid-row: 1 / span 3; */
+}
